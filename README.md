@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-The **Supply Chain Visibility and Optimization** project focuses on analyzing e-commerce supply chain data to improve visibility, monitor operational performance, identify inefficiencies, and support data-driven decision making.
+The **Supply Chain Visibility and Optimization** project focuses on analyzing e-commerce supply chain data to improve visibility, monitor operational performance, identify inefficiencies, and support data-driven decision-making.
 
 The project uses data preprocessing, analytics, Power BI dashboards, KPIs, and interactive visualizations to understand different aspects of supply chain performance.
 
@@ -59,7 +59,7 @@ The project focuses on:
 
 Transportation Cost Analysis focuses on understanding freight and delivery-related costs.
 
-Key analysis includes:
+### Key Analysis
 
 - Freight cost analysis
 - Transportation cost patterns
@@ -74,7 +74,7 @@ Key analysis includes:
 
 - Python
 - Pandas
-- Jupyter Notebook
+- Jupyter Notebook / Google Colab
 - Power BI
 - Power Query
 - DAX
@@ -87,11 +87,32 @@ Key analysis includes:
 
 This repository contains:
 
-- Project presentations
-- Milestone documentation
-- Power BI dashboard files
-- Project report
-- Supporting documentation
+- 📓 Data preprocessing notebook
+- 📊 Power BI dashboard files (`.pbix`)
+- 🖼️ Dashboard screenshots
+- 📄 Milestone presentations
+- 📑 Milestone documentation
+- 📋 Project report
+- 📦 Dataset source information
+
+---
+
+## 📓 Data Preprocessing
+
+The data preprocessing stage was performed using Python and Pandas.
+
+The preprocessing notebook includes:
+
+- Dataset loading
+- Data exploration
+- Missing-value handling
+- Data cleaning
+- Data transformation
+- Preparation of the final dataset for Power BI analysis
+
+The preprocessing notebook is available in the repository as:
+
+**`PreProcessing_(Milestone_1) (2).ipynb`**
 
 ---
 
@@ -99,15 +120,23 @@ This repository contains:
 
 The project uses the **Brazilian E-Commerce Public Dataset by Olist**.
 
-The cleaned dataset was used for data preprocessing, analysis, and Power BI dashboard development.
+The dataset was cleaned and transformed before being used for analysis and Power BI dashboard development.
 
-Due to the large file size, the cleaned CSV dataset is not stored directly in this GitHub repository.
+Due to GitHub file-size limitations, the cleaned CSV dataset is not stored directly in the repository.
 
 ### Dataset Source
 
 Brazilian E-Commerce Public Dataset by Olist – Kaggle:
 
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+---
+
+## 🖼️ Dashboard Screenshots
+
+Dashboard screenshots are provided in the **Dashboard-Screenshots** folder.
+
+The screenshots provide a quick overview of the Power BI dashboards developed during the project.
 
 ---
 
@@ -122,7 +151,7 @@ The project provides insights into:
 - Order patterns
 - Supply chain efficiency
 
-These insights can help organizations identify operational issues and make better supply chain decisions.
+These insights can help organizations identify operational issues and support better supply chain decisions.
 
 ---
 
@@ -130,8 +159,16 @@ These insights can help organizations identify operational issues and make bette
 
 This project was developed as part of an internship focused on **Supply Chain Visibility and Optimization**.
 
+The project involved collaborative work covering data preprocessing, analytics, Power BI dashboard development, and documentation.
+
 ---
 
 ## 📌 Conclusion
 
-The project demonstrates how **data analytics and interactive Power BI dashboards** can improve supply chain visibility, identify inefficiencies, and support data-driven optimization.
+The project demonstrates how **data analytics and interactive Power BI dashboards** can improve supply chain visibility, identify operational inefficiencies, and support data-driven optimization.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
